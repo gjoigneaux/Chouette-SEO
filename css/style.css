@@ -804,7 +804,7 @@ h4 {
 }
 
 .bgc-atomic-tang {
-    background-color: #F3976C;
+    background-color: #FFFFFF;
 }
 
 .tc-white {
@@ -1074,6 +1074,7 @@ h4 {
         width: 48px;
         height: 48px;
         margin-bottom: 10px;
+        color: black;
     }
 }
 
