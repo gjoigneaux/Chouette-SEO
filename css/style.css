@@ -371,12 +371,12 @@ a:hover {
 .citation{
     font-size: 20px;
     font-style: italic;
-    color: #333333;
+    color: #555555;
 }
 
 .nomcitation{
     font-size: 14px;
-    color: #333333;
+    color: #555555;
 }
 
 .titre2{
@@ -738,7 +738,7 @@ h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
 
 .med-width-whitespace {
@@ -748,11 +748,11 @@ h2 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
 
 h4 {
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
 
 .icons {
@@ -762,10 +762,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-}
-
-.black {
-    color: #000000;
 }
 
 .portfolio-thumb {
@@ -804,15 +800,15 @@ h4 {
 }
 
 .bgc-atomic-tang {
-    background-color: #F3976C;
+    background-color: #923d16;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #923d16!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #923d16;
     color: #FFFFFF!important;
 }
 
@@ -830,7 +826,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #923d16!important;
 }
 
 .ltc-atomic-tangerine:hover {
