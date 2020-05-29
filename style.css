@@ -362,6 +362,29 @@ a:hover {
     z-index: 2;
 }
 
+.titre{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
+.citation{
+    font-size: 20px;
+    font-style: italic;
+    color: #333333;
+}
+
+.nomcitation{
+    font-size: 14px;
+    color: #333333;
+}
+
+.titre2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -702,14 +725,16 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    min-width: 48px;
+    min-height: 48px;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -822,7 +847,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1050,22 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    #bloc-4-portfolio{
+        margin: auto;
+    }
+
+    .portfolio-thumb {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .fa{
+        width: 48px;
+        height: 48px;
+        margin-bottom: 10px;
     }
 }
 
