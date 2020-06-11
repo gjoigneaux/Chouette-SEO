@@ -364,8 +364,8 @@ a:hover {
 
 .titre{
     font-size: 22px;
-    margin-bottom: 10px;
     color: #555555;
+    margin: 0 3% 10px 3%;
 }
 
 .citation{
@@ -381,8 +381,8 @@ a:hover {
 
 .titre2{
     font-size: 22px;
-    margin-bottom: 10px;
     color: #555555;
+    margin: 0 3% 10px 3%;
 }
 
 @media (min-width: 768px) {
@@ -715,7 +715,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #333333!important;
+    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -796,11 +796,11 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #ac613e;
+    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ac613e;
 }
 
 .tc-white {
@@ -877,13 +877,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -901,10 +901,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+   /* .bloc {
+        padding: env(safe-area-inset-left);
+        padding: env(safe-area-inset-right);
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -913,8 +913,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+      /*  padding: env(safe-area-inset-left);
+        padding: env(safe-area-inset-right, 20px); */
     }
 }
 
